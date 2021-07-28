@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Project Day!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="foodGuesser.js"></script>
+  </head>
+
+  <body class="bg-img main">
+    <div class="section">
+      <section class="hero is-small notification is-info has-text-centered">
+        <div class="hero-body">
+          <p class="title">
+            Food Category Guessing Game
+          </p>
+          <p class="subtitle">
+            Test your food-savviness with this fully randomized quiz! Type in
+            the input box and press Enter to submit your guess.
+          </p>
+          <p>
+            You can also type skip to skip any foods that are escaping your mind.
+          </p>
+        </div>
+      </section>
+      <section class="container" id="img-container">
+        <!--<img id="img" src="https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg" alt=""/>-->
+        <img id="img" alt="blank image" />
+      </section>
+      <br />
+      <section class="container" id="input-container">
+        <input
+          id="guess"
+          class="input is-primary is-large"
+          type="text"
+          name="food"
+          placeholder="Guess the food!"
+        />
+      </section>
+    </div>
+    <footer class="footer is-info mt-5 mb-0">
+      <div class="content has-text-centered">
+        <h1 id="feedback" class="subtitle">
+          Make your guess!
+        </h1>
+        <!--<p>Score: 0</p>-->
+      </div>
+    </footer>
+    <script src="script.js" type="text/javascript" defer></script>
+  </body>
+</html>
