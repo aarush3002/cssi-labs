@@ -8,3 +8,16 @@
   height: 250px;
   margin-bottom: 30px;
 }
+
+.footer {
+  background-color: #acacac;
+}
+
+.footer {
+  padding-bottom: 3rem;
+  transition: 1s ease-in-out;
+}
+
+.footer:hover {
+  letter-spacing: 1px;
+}

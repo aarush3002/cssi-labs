@@ -2,14 +2,15 @@ body {
   width: 90%;
   margin: auto;
   padding: 20px;
-  background-color: white;
+  background-color: aliceblue;
   font: "IBM Plex Sans", sans-serif;
 }
 
 section {
   padding: 20px;
   margin: 20px;
-  background-color: #40e0d0;
+  background-color: #d5e1eb;
+  min-height: 20px;
 }
 
 h1 {
@@ -29,6 +30,7 @@ div {
   color: white;
   display: flex;
   flex-direction: column;
+  min-height: 20px;
 }
 
 h2 {
@@ -55,30 +57,5 @@ img {
 }
 
 footer {
-  padding: 30px;
-  padding-top: 20px;
-  margin-bottom: -20px;
-  margin-left: -40px;
-  margin-right: -40px;
-  background-color: #8B0000;
-}
-
-#red {
-    background-color: #ffcccb;
-}
-
-#green {
-    background-color: #90ee90;
-}
-
-#blue {
-    background-color: #ADD8E6;
-}
-
-#yellow {
-    background-color: #FFFF99;
-}
-
-.blacktext {
-  color: black;
+  background-color: #7cbdeb;
 }
